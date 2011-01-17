@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackHelper", "WpfApplication1\HackHelper.csproj", "{0CB60314-8FB1-44A8-93C7-0283267D0B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTest", "HackTest\HackTest.csproj", "{831DCF92-4EE1-4B77-8970-26C5110D032B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87EFF71E-B651-4542-B262-29302518287A}"
+	ProjectSection(SolutionItems) = preProject
+		HackHelper.vsmdi = HackHelper.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HackHelper.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB60314-8FB1-44A8-93C7-0283267D0B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB60314-8FB1-44A8-93C7-0283267D0B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB60314-8FB1-44A8-93C7-0283267D0B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB60314-8FB1-44A8-93C7-0283267D0B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831DCF92-4EE1-4B77-8970-26C5110D032B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831DCF92-4EE1-4B77-8970-26C5110D032B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831DCF92-4EE1-4B77-8970-26C5110D032B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831DCF92-4EE1-4B77-8970-26C5110D032B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HackHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataInfo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Start by typing all the available passwords into this textbox. (One password per line. Make sure you have no misspelled words.)
+
+For each password you test, enter it in the textbox below together with the number of correct characters and press Go.
+
+The program will remove any disqualified passwords from this box. Enter a new possible password chosen from the remaining ones listed here and repeat until only one password remains.</Value>
+    </Setting>
+    <Setting Name="NameInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tested password</Value>
+    </Setting>
+    <Setting Name="CountInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="GoInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">One of the textboxes contains invalid data.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

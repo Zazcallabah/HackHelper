@@ -1,0 +1,52 @@
+﻿<Window x:Class="HackHelper.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="HackHelper" Height="300" Width="300">
+    <Grid>
+        <Button
+			Height="23" 
+			HorizontalAlignment="Right" 
+			Margin="0,0,8,9.361" 
+			Name="Go" 
+			VerticalAlignment="Bottom"
+			Width="24"
+			ToolTipService.ShowOnDisabled="True"
+			ToolTip="{Binding Path=ButtonMessage, UpdateSourceTrigger=PropertyChanged}"
+			IsEnabled="{Binding IsReady}"
+			Click="Go_Click"
+			TabIndex="3">Go</Button>
+        <TextBox
+			Foreground="{Binding Path=TextColor, UpdateSourceTrigger=PropertyChanged}"
+			Text="{Binding Path=EntryCount, UpdateSourceTrigger=PropertyChanged}"
+			Height="23" 
+			Margin="0,0,40,9.361"
+			Name="EntryCount" 
+			GotFocus="EntryCount_GotFocus" 
+			VerticalAlignment="Bottom" 
+			HorizontalAlignment="Right" 
+			Width="24" 
+			TabIndex="2" />
+        <TextBox 
+			Foreground="{Binding Path=TextColor, UpdateSourceTrigger=PropertyChanged}"
+			Text="{Binding Path=EntryName, UpdateSourceTrigger=PropertyChanged}" 
+			Height="23" 
+			Margin="10,0,77,9.361"
+			Name="EntryName" 
+			GotFocus="EntryName_GotFocus"
+			VerticalAlignment="Bottom" 
+			TabIndex="1"/>
+        <TextBox
+			Margin="0,0,0,42" 
+			Foreground="{Binding Path=TextColor, UpdateSourceTrigger=PropertyChanged}"
+			GotFocus="EntryLines_GotFocus" 
+			AcceptsReturn="True" 
+			TextWrapping="Wrap"
+			VerticalScrollBarVisibility="Auto" 
+			FontFamily="Consolas, Lucida Console, Courier New"
+			FontSize="16" 
+			Text="{Binding Path=DataSet, UpdateSourceTrigger=PropertyChanged }" 
+			Name="EntryLines"
+			KeyboardNavigation.TabIndex="0" 
+			KeyboardNavigation.TabNavigation="Once"/>
+    </Grid>
+</Window>
