@@ -1,5 +1,7 @@
 HackHelper
 
+Tool for simplifying the hacking minigame in Fallout 3 and Fallout: New Vegas.
+
 Coded in C# 3.5
 Compiles w/ VS2008
 Requires .net to run.
